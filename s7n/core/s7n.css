@@ -2,7 +2,7 @@
     /* reset vars */
     --font-family: "Roboto Condensed", sans-serif;
     --base-letter-spacing: 1.25;
-    --base-line-height: 1.25;
+    --base-line-height: 1.35;
     --base-font-size: 1rem;
 
     /* lets create colors */
@@ -39,3 +39,17 @@ h4 {font-size: 1.75rem;}
 h5 {font-size: 1.5rem;}
 h6 {font-size: 1.25rem;}
 
+ul,li {list-style-type: none;}
+
+/* from now on these are subject to update and need major changes */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+input, label {font-family: inherit; font-size: inherit;}
+
+button {
+    font-size: 0.95rem;
+    padding: 0.2vw;
+}
