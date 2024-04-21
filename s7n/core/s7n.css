@@ -1,0 +1,41 @@
+:root {
+    /* reset vars */
+    --font-family: "Roboto Condensed", sans-serif;
+    --base-letter-spacing: 1.25;
+    --base-line-height: 1.25;
+    --base-font-size: 1rem;
+
+    /* lets create colors */
+    --color-black: #010B13;
+    --color-white: #FEFEFA;
+
+}
+
+
+/* import main font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset goddam cassass */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    letter-spacing: var(--base-letter-spacing);
+    line-height: var(--base-line-height);
+    font-size: var(--base-font-size);
+    color: var(--color-black);
+    /* lets eat some performance */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* base typography */
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2.25rem;}
+h3 {font-size: 2rem;}
+h4 {font-size: 1.75rem;}
+h5 {font-size: 1.5rem;}
+h6 {font-size: 1.25rem;}
+
